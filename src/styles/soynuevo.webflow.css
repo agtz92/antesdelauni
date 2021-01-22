@@ -1264,7 +1264,7 @@ ul, li
   display: grid;
   overflow: hidden;
   padding:10px;
-  height: auto;
+  height: 80vh;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -1617,7 +1617,7 @@ ul, li
 }
 
 .navbar {
-  background-color:#6930c3;
+  background-color:#3a3a3a;
 }
 
 .head-wrapper-post {

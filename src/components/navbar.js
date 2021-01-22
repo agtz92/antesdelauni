@@ -42,10 +42,10 @@ render(){
                 />
                 </Link>
                 <nav role="navigation" className="w-nav-menu" >
-                    <Link to="/" className="nav-link w-nav-link" activeClassName="w--current">Inicio</Link>
-                    <Link to="/categorias/" className="nav-link w-nav-link" activeClassName="w--current">Materias</Link>
-                    <Link to="/informacion/" className="nav-link w-nav-link" activeClassName="w--current">Informacion</Link>
-                    <Link to="/search/" className="nav-link w-nav-link" activeClassName="w--current">Búsqueda rápida</Link>
+                    <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/preguntas-de-examen/">Preguntas de examen</a>
+                    <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/">Materias</a>
+                    <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/partners/">Partners</a>
+                    <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/search//">Búsqueda</a>
                     
                 </nav>
                 <div className={'w-nav-button ' + (this.state.isToggleOn ? "w--open" : "")} onClick={this.handleClick} aria-hidden="true" >
@@ -55,10 +55,11 @@ render(){
             </div>
             <div className={'w-nav-overlay mobileNav '  + (this.state.isToggleOn ? 'showing' : 'not-showing')} data-wf-ignore="" id="w-nav-overlay-0">
                 <nav role="navigation" className="w-nav-menu" style={navStyle} data-nav-menu-open="">
-                    <Link to="/" className="nav-link w-nav-link w--nav-link-open" activeClassName="w--current">Inicio</Link>
-                    <Link to="/categorias/" className="nav-link w-nav-link w--nav-link-open" activeClassName="w--current">Materias</Link>
-                    <Link to="/informacion/" className="nav-link w-nav-link w--nav-link-open" activeClassName="w--current">Informacion</Link>
-                    <Link to="/search/" className="nav-link w-nav-link" activeClassName="w--current">Búsqueda rápida</Link>
+                    <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/preguntas-de-examen/">Preguntas de examen</a>
+                     <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/">Materias</a>
+                      <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/partners/">Partners</a>
+                       <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/search//">Búsqueda</a>
+                    
                 </nav>
             </div>
         </div>
