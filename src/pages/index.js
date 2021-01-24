@@ -5,7 +5,7 @@ import PostBlockLarge from "../components/postBlockLarge"
 import '../styles/normalize.css'
 import "../styles/webflow.css"
 import "../styles/soynuevo.webflow.css"
-import imagetest from "../images/test.jpg"
+import unam from "../images/UNAM.jpg"
 import examen from "../images/examen.jpg"
 import resumen from "../images/resumen.jpg"
 import partner from "../images/partner.jpg"
@@ -59,12 +59,12 @@ export default function Home() {
       </div>
     </div>
     <div id="w-node-436f8c51704c-c67b1059" className="divgrid">
-      <img srcSet={partner} loading="lazy" alt="" className="imagegrid"/>
+      <img srcSet={unam} loading="lazy" alt="" className="imagegrid"/>
       <div className="gridcontent">
         <div className="categblock">
         </div>
-        <Heading color="dark" alignment="left">Búsqueda rápida. Encuentra un tema rápido</Heading>
-        <a href="https://www.antesdelexamen.com/search/"><div className="div-tag">Ir a búsqueda</div></a>
+        <Heading color="dark" alignment="left">Guías de examen oficiales. Puedes descargarlas gratis aquí</Heading>
+        <a href="https://www.antesdelexamen.com/guias/"><div className="div-tag">Ir a guias</div></a>
         <div className="autdate">
           <div className="autor">Antes del Examen</div>
           <div className="fecha">Enero 2021</div>
