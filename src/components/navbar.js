@@ -44,7 +44,7 @@ render(){
                 <nav role="navigation" className="w-nav-menu" >
                     <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/preguntas-de-examen/">Preguntas de examen</a>
                     <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/">Materias</a>
-                    <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/partners/">Partners</a>
+                    <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/mejores-cursos-de-preparacion-unam-ipn-uam-uaem">Cursos de Preparación</a>
                     <a className="nav-link w-nav-link"  activeClassName="w--current" href="https://www.antesdelexamen.com/search//">Búsqueda</a>
                     
                 </nav>
@@ -57,7 +57,7 @@ render(){
                 <nav role="navigation" className="w-nav-menu" style={navStyle} data-nav-menu-open="">
                     <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/preguntas-de-examen/">Preguntas de examen</a>
                      <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/">Materias</a>
-                      <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/partners/">Partners</a>
+                      <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/categorias/mejores-cursos-de-preparacion-unam-ipn-uam-uaem">Cursos de Preparación</a>
                        <a className="nav-link w-nav-link w--nav-link-open"  activeClassName="w--current" href="https://www.antesdelexamen.com/search//">Búsqueda</a>
                     
                 </nav>
