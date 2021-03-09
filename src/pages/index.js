@@ -50,11 +50,11 @@ export default function Home() {
       <div className="gridcontent">
         <div className="categblock">
         </div>
-        <Heading color="dark" alignment="left">Partners. Ve quienes ayudan a este proyecto</Heading>
-        <a href="https://www.antesdelexamen.com/partners/"><div className="div-tag">Ir a partners</div></a>
+        <Heading color="dark" alignment="left">Cursos de Preparación. Ve los mejores cursos para UNAM IPN UAM etc</Heading>
+        <a href="https://www.antesdelexamen.com/categorias/mejores-cursos-de-preparacion-unam-ipn-uam-uaem"><div className="div-tag">Ir a cursos</div></a>
         <div className="autdate">
           <div className="autor">Antes del Examen</div>
-          <div className="fecha">Enero 2021</div>
+          <div className="fecha">Marzo 2021</div>
         </div>
       </div>
     </div>
